@@ -14,7 +14,7 @@ class solar():
 		self.name = name
 		self.types = types
 
-#kwh0gain, kwhcost
+#kwh0gain, kwh0cost
 mono = kwh0
 poly = kwh1
 thin = kwh2
