@@ -9,17 +9,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import ezodf
 
-
-class Complex:
-	def __init__(self, realpart, imagpart):
-		self.r = realpart
-		self.i = imagpart
-
->>> x = Complex(3.0, -4.5)
->>> x.r, x.i
-(3.0, -4.5)
-
-
 class solar():	
 	def __init__(self, name, types):
 		self.name = name
